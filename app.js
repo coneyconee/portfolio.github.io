@@ -170,7 +170,7 @@ function sectionHeader(title, subtitle) {
 function HomeSection() {
   const section = el("section", { class: "section" });
 
-  const grid = el("div", { class: "grid grid-2" });
+  const grid = el("div", { class: "grid" });
 
   // HLs
   const heroCard = el("div", { class: "card hero anim-elem", style: { animationDelay: "80ms" } });
