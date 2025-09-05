@@ -173,7 +173,11 @@ function HomeSection() {
   const grid = el("div", { class: "grid" });
 
   // HLs
-  const heroCard = el("div", { class: "card hero anim-elem", style: { animationDelay: "80ms" } });
+  const heroCard = el("div", { 
+  class: "card hero anim-elem", 
+  style: { animationDelay: "80ms", maxWidth: "100%", padding: "24px" } 
+  });
+  
   heroCard.appendChild(el("h3", { text: DATA.home.heroTitle }));
   heroCard.appendChild(el("p", { class: "text-sm", text: DATA.home.heroSubtitle }));
 
