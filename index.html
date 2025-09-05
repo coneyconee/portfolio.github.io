@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Coen Peter Ng — Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- animated bg -->
+  <canvas id="bg-canvas" class="bg-canvas"></canvas>
+  <div id="bg-grid" class="bg-grid"></div>
+
+  <!-- app start here -->
+  <div id="app" class="app font-cyber">
+    <header class="app-header">
+      <div class="wrap">
+        <div class="logo-dot">
+          <span class="logo-dot-glow"></span>
+          <span class="logo-dot-core"></span>
+        </div>
+        <div class="title">
+          <h1 id="site-name"></h1>
+          <p id="site-tagline" class="muted"></p>
+        </div>
+        <nav class="nav-desktop" id="nav-desktop"></nav>
+      </div>
+    </header>
+
+    <!-- phone support -->
+    <div class="nav-mobile" id="nav-mobile"></div>
+
+    <main class="wrap">
+      <div id="page" class="page animate-page-enter"></div>
+    </main>
+
+    <footer class="footer">
+      <div class="wrap footer-wrap">
+        <span id="footer-copy"></span>
+        <span class="muted">Theme: cyberpunk pink (light).</span>
+      </div>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
